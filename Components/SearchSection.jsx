@@ -3,7 +3,6 @@ import "../src/index.css";
 import { Box, TextField } from "@mui/material";
 import Button from "@mui/material/Button";
 import Alert from "@mui/material/Alert";
-import SearchIcon from "@mui/icons-material/Search";
 
 function SearchSection({ updateData, setLoading }) {
   const [city, setCity] = useState("");
@@ -71,12 +70,7 @@ function SearchSection({ updateData, setLoading }) {
                 value={city}
                 onChange={handleChange}
               />
-              <Button
-                variant="contained"
-                type="submit"
-                size="big"
-                startIcon={<SearchIcon />}
-              >
+              <Button variant="contained" type="submit" size="big">
                 Search
               </Button>
             </div>
