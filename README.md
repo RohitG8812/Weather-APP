@@ -4,7 +4,8 @@ Here's a sample README file for your weather report project:
 
 # Weather Report
 
-![Weather Report Screenshot](path_to_your_image.png)
+![image](https://github.com/user-attachments/assets/11cf7c8f-1ad4-41a7-b4b6-5f30eb6b1b3d)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
