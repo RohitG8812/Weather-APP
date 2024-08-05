@@ -22,10 +22,10 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   return (
-    <Box>
+    <>
       <SearchSection updateData={updateInfo} setLoading={setLoading}/>
       <DataRender info={getInfo} loading={loading}/>
-    </Box>
+    </>
   );
 }
 

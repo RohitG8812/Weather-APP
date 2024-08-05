@@ -80,7 +80,7 @@ function SearchSection({ updateData, setLoading }) {
       <div className="errorContainer">
         {error ? (
           <Alert severity="error" className="success">
-            ERROR MSG : No such City exist in your API.
+            ERROR : No such City, State or Country Exist.
           </Alert>
         ) : (
           <Alert icon={false} severity="success" className="success">
